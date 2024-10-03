@@ -1,3 +1,4 @@
+
 # Content Moderation System Using LLMs and VLMs
 
 ## Project Description
@@ -17,7 +18,7 @@ The system features:
 To set up the project locally, clone the repository and install the required packages:
 
 ```bash
-git clone https://github.com/malikfaizanbabar/LMS.git
-cd LMS
+git clone git@github.com:haroon423/HarmSafe-Detection.git
+cd HarmSafe-Detection
 pip install -r requirements.txt
 streamlit run app.py
