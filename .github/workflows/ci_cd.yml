@@ -33,4 +33,5 @@ jobs:
       - name: Deploy to Streamlit
         run: |
           pip install streamlit
-          streamlit run your_streamlit_app.py
+          streamlit run app.py  # Replace with your app's filename
+          
