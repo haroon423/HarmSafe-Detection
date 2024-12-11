@@ -39,9 +39,9 @@ jobs:
           pytest --disable-warnings
 
       # Optional: Only run this step if you want to deploy directly
-      - name: Deploy to Streamlit
-        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
-        run: |
-          pip install streamlit
-          streamlit run app.py --server.port 8501  # Example port
+      #- name: Deploy to Streamlit
+       # if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+       # run: |
+       #   pip install streamlit
+       #   streamlit run app.py --server.port 8501  # Example port
 
